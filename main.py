@@ -1,7 +1,7 @@
 from pyscript import document,display
 
 def checkname(e):
-    document.getElementById('output').innerHTML = "" # clears the previous
+    document.getElementById('output1').innerHTML = "" # clears the previous
     fname = document.getElementById('first').value.strip() # get value of first name and strips spaces
     lname = document.getElementById('last').value.strip() # get value of last name and strips spaces
     fullname = f"{fname} {lname}" # combines the two
